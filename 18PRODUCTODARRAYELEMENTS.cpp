@@ -12,12 +12,13 @@ int main()
     {
         cin>>arr[i];
     }
-    cout<<"Your array is: "<<arr[n]<<endl;
+    cout<<"Your array is: "<<endl;
     for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
     }
     int product=1;
+    cout<<endl;
     for(int i=0;i<n;i++)
     {
         product*=arr[i];
