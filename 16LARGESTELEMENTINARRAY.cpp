@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 int arr[50],n;
-cout<<"Enter how many elements do you have t store?"<<endl;
+cout<<"Enter how many elements do you have to store?"<<endl;
 cin>>n;
 cout<<"Enter the array elements: "<<endl;
 for(int i=0;i<n;i++)         
@@ -28,3 +28,15 @@ for(int i=1;i<n;i++)
 cout<<"Largest element is : "<<max<<endl;
 return 0;
 }
+
+//If you want to find minimum element in an array
+// int min=arr[0];
+// for(int i=0;i<n;i++)
+// {
+//     if(min>arr[i])
+//     {
+//         min=arr[i];
+//     }
+// }
+// cout<<"Smallest element is: "<<min<<endl;
+// return 0;
