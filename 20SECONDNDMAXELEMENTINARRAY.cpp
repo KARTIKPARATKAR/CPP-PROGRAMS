@@ -17,7 +17,7 @@ int main()
     {
         cout<<arr[i]<<" ";
     }
-    int max1=arr[0],max2=arr[0];
+    int max1=arr[0],max2=arr[0];  //Here we have initialized the max1 and max2 integers with 1st element in an array so as to better comparison
     for(int i=0;i<n;i++)
     {
         if(max1<arr[i])
