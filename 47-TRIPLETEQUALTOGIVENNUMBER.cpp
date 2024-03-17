@@ -10,7 +10,7 @@ int main()
   {
     for (int j = i + 1; j < s; j++)
     {
-      for (int p = i + j + 1; p < s; p++)
+      for (int p =  j + 1; p < s; p++)
       {
         if (arr[i] + arr[j] + arr[p] == sum)
         {
