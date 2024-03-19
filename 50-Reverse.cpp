@@ -1,18 +1,28 @@
 #include<iostream>
 using namespace std;
+class book    //This is declaration of class book
+{
+  public:
+    string name;   //name,id and author are data members
+    int id;
+    string author;
+    void print()   //read is a member function which prints the message.
+    {
+      cout<<"Reading book "<<name<<" of author '"<<author<<"' and book id "<<id<<endl;
+    }
+};
 int main()
 {
-    int arr[10]={1,3,5,6,8,9,2,4,5,7};
-    //Numbers given from 1 to 9
-    //SIze of array is 9+1=10
-    int sum=0;
-    int s=0;
-    sum=(10*(10+1))/2;
-    for(int i=0;i<10;i++)
-    {
-      s+=arr[i];
-    }
-    int num=sum-s;
-    cout<<"Repeating number is:"<<num<<endl;
-    return 0;
+  book cpp;                     // cpp is an object of type book is created
+  cpp.name="'C++ programming'";  // name is assigned to the object cpp using dot operator
+  cpp.author="Vikram Singh";    // author is assigned to the object cpp using dot operator
+  cpp.id=26;                   // id is assigned to the object cpp using dot operator
+  cpp.print();                  // member function is called on object cpp usinng dot operator which print the information about object cpp.
+  book dbms;
+  dbms.name="Database System";
+  dbms.author="Senthil Vijay Kumar";
+  dbms.id=27;
+  dbms.print();
+  return 0;
+
 }
