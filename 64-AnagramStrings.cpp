@@ -40,7 +40,6 @@ string st2;
     cout<<"Two strings are not anagrams because lengths are different."<<endl;
     return 0;
   }
-
     for(int i=0;i<l1;i++)
     {
       if(sstr1[i]!=sstr2[i])
@@ -49,7 +48,6 @@ string st2;
         return 0;
       }
     }
-
   cout<<"Two strings are anagram!"<<endl;
  return 0;
 }
