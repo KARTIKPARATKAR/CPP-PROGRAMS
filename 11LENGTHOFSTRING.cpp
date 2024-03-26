@@ -1,4 +1,5 @@
 //Write a program to find the length of the string.
+//\0 is stored at the end of the string
 #include<iostream>
 using namespace std;
 int main()
