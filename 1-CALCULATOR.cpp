@@ -1,4 +1,4 @@
-//Switch case statement is used to write a program of simple calculator
+//Switch case statement is used to write a program of simple calculator.
 #include<iostream>
 using namespace std;
 int main()
