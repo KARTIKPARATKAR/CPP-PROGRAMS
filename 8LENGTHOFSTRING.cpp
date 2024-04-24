@@ -1,4 +1,4 @@
-// STring is a datatype in c++
+//String is a datatype in c++
 //string str='abcef' is a string.
 //String str has 5 characters , which is also the length of the string str.
 //Last character of every string is having the character '\0'. So we can iterate through the string till we 
