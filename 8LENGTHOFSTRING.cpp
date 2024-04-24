@@ -9,12 +9,12 @@ int main()
 {
  string str;
  cout<<"Give the string: "<<endl;
- cin>>str;
+getline(cin,str);
  int count=0;
- for(int i=0;i<str[i]!='\0';i++)
+ for(int i=0;str[i]!='\0';i++)
  {
   count++;
  }
  cout<<"The string "<<str<<" has total of "<<count<<" length."<<endl;
  return 0;
-} 
+}
