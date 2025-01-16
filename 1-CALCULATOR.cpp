@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+ cout<<"Hello\n";
  cout<<"Give operation you want to perform ??"<<endl<<"+ , - , * , % , /"<<endl;
  char p;
  cin>>p;
