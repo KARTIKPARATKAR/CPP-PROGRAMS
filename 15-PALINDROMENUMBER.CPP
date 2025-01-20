@@ -1,4 +1,4 @@
-//THe palindrome number is a number when we reverse it , it remains same.
+//The palindrome number is a number when we reverse it , it remains same.
 //Eg- 12321, 4961694
 #include<iostream>
 using namespace std;
