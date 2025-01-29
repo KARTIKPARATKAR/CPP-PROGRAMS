@@ -22,7 +22,7 @@ int temp;
 for(int i=0;i<n;i++)
 {
     temp=arr[i];
-    for(int k=i+1;k<n;k++)
+    for(int k=i+1;k<n;k++)   //Reason behinf starting k=i+1 because i want to compare arr[i] with arr[i+1]
     {
        if(temp==arr[k]) 
        {
