@@ -40,3 +40,46 @@ int main()
     }
     return 0;
 }
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Printing a character form user input at start and rest at end
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Give no of characters in an array:"<<endl;
+    cin>>n;
+    char arr[n];
+    cout<<"Give input in an character array:"<<endl;
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    
+    cout<<"Your chractyer array is:"<<endl;
+    for(int i=0;i<n;i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+    
+    char a;
+    cout<<endl<<"Give which character you want to print at start:"<<endl;
+    cin>>a;
+    cout<<endl<<"Result is:"<<endl;
+   for(int i=0;i<n;i++)
+   {
+       if(arr[i] == a){
+           cout<<arr[i]<<" ";
+       }
+   }
+    for(int i=0;i<n;i++)
+   {
+       if(arr[i] != a){
+           cout<<arr[i]<<" ";
+       }
+   }
+    
+    return 0;
+}
