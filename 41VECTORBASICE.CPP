@@ -8,8 +8,8 @@ int main()
 {
   vector<int> hello;
   vector<int> hell;
-  cout<<sizeof(hello)<<endl;
-  cout<<hello.size()<<endl;
+  cout<<sizeof(hello)<<endl;   //This returns the size of vector object
+  cout<<hello.size()<<endl;    //This prints number of elements currently stored in the vector
   hello.resize(50);
   cout<<hello.size()<<endl;
   cout<<hello.capacity()<<endl;
@@ -22,7 +22,7 @@ int main()
   cout<<"Printing the vectore v:"<<endl;
   for(int i=0;i<(v.size());i++)
   {
-      cout<<v[i]<<" ";
+      cout<<v[i]<<" ";           // This will print like 1 3 6 8
   }
   cout<<endl<<"Size of v is "<<v.size()<<endl;
   v.insert(v.begin()+3,10);  //Inserting element 10 at 3rd position relative to the starting element
