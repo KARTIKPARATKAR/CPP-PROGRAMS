@@ -18,3 +18,20 @@ int main()
   }
   return 0;
 }
+___
+
+//Reverse array of integers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int array[]={1,2,3,4,5,6,7,8,9};
+    int p;
+    p=sizeof(array)/sizeof(array[0]);
+    cout<<"The reverse is:"<<endl;
+    for(int i=p-1;i>=0;i--)            //Here we have started for loop from (p-1) because we dont want that "\0" which is stored at the end of an array
+    {                                  //i>=0 because we want to print element present at index 0          
+        cout<<array[i]<<" ";
+    }
+    return 0;
+}
