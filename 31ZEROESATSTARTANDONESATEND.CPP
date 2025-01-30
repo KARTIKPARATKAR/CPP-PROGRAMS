@@ -1,44 +1,44 @@
 //Writing a program to print all zeroes at the start and all ones at the end of a binary number.
 #include<iostream>
 using namespace std;
-int main()
+
+void print(int arr[],int n)                       //Function for printing an array
 {
-    int n;
-    cout<<"What is size of binary number?"<<endl;
-    cin>>n;
-    char arr[n];
-    cout<<"Give the binary number:"<<endl;
-    for(int i=0;i<n;i++)
-    {
-        cin>>arr[i];
-    }
-     cout<<"Your binary number is:"<<endl;
+    cout<<"Your binary number is:"<<endl;
     for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
     }
-    
-    cout<<endl;
-    int zeroes=0,ones=0;
+}
+int main()
+{
+    int n;
+    cout<<"Give no of elements in an binary array:"<<endl;
+    cin>>n;
+    int arr[n];
+    cout<<"Give "<<n<<" binary inputs in an array"<<endl;
     for(int i=0;i<n;i++)
     {
-        if(arr[i]=='0')
-        {
-            zeroes++;
-        }
-        if(arr[i]=='1')
-        {
-            ones++;
-        }
+        cin>>arr[i];
     }
-    cout<<"Binary number with zeroes at start and ones at end is:"<<endl;
-    for(int i=0;i<zeroes;i++)
+    print(arr,n);                                 //Calling the function to print an array;
+    int zero=0;                                   //Here we dont have to count no of ones as we will print ones from no of zeroes to length of an array
+    for(int i=0;i<n;i++)
     {
-        cout<<"0 ";
+        if(arr[i] == 0 )
+        {
+            zero++;
+        }
     }
-    for(int i=0;i<ones;i++)
+    
+    for(int i=0;i<zero;i++)
     {
-        cout<<"1 ";
+        arr[i] = 0;
     }
-    return 0;
+    for(int i=zero;i<n;i++)
+    {
+        arr[i] = 1;
+    }
+    
+    print(arr,n);    // Calling the function to print an array after zeroes at start and ones at end
 }
