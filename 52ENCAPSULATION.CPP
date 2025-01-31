@@ -1,4 +1,6 @@
-//Encapsulation
+//Encapsulation is one of the fundamental principles of Object-Oriented Programming (OOP). 
+//It refers to bundling data (variables) and methods (functions) that operate on that data into a single unit (class) 
+//while restricting direct access to some of the class members (by making them private).
 #include<iostream>
 using namespace std;
 class boy
