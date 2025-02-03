@@ -1,4 +1,8 @@
-//Two Strings are called the anagram if they contain the same characters.
+//An "anagram" refers to two strings that contain the exact same characters, but in a different order
+// Condition1=Both strings should have same no of characters
+// Condition2=Both strings should have same characters but arrangement can be different.
+// So first sort both the strings and then compare each character of 1st string with each character of 
+// second string. If they are same then these strings are "anagrams"
 //brag and grab are anagram
 #include<iostream>
 #include<string>
