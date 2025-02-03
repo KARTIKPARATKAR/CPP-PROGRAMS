@@ -1,3 +1,5 @@
+//The  ability of a class to derive properties and characteristics from another class is called Inheritance
+1st code:
 #include<iostream>
 using namespace std;
 
@@ -57,5 +59,56 @@ int main()
     kartik.setstudent(sid, standard);
     kartik.printstudent();
 
+    return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+2nd code:
+#include<iostream>
+using namespace std;
+
+class person
+{
+    int age;
+    string name;
+    public:
+    void setperson(string pname,int page)
+    {
+        age=page;
+        name=pname;
+    }
+    void getperson()
+    {
+        cout<<"Person name is:"<<name<<endl;
+        cout<<"Person age is:"<<age<<endl;
+    }
+};
+
+class teacher : public person
+{
+    private:
+    int salary;
+    string school;
+    public:
+    void setteacher(int tsalary,string tschool)
+    {
+        salary=tsalary;
+        school=tschool;
+    }
+    void getteacher()
+    {
+        getperson();
+        cout<<"Salary of teacher is:"<<salary<<endl;
+        cout<<"School of teacher is:"<<school<<endl;
+    }
+    
+};
+int main()
+{
+    teacher t1;
+    t1.setteacher(2000,"DCV");
+    t1.setperson("Karan",35);
+    t1.getteacher();
     return 0;
 }
