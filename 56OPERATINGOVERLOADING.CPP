@@ -1,3 +1,9 @@
+//Built in data types are- + - * / % etc
+//User defined data types are objects are structure and class
+//Build in operators work on build in data types and it doesnt work on user defined data types like 
+//classess and structures because computer dont know how to add the user defined data types. We need 
+//to tell computer as to how to add the user defined data types and it is known as operator overloading.
+
 #include <iostream>
 using namespace std;
 class test
