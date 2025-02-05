@@ -18,7 +18,7 @@ void push(char a)
         arr[top]=a;
     }
 }
-void pop()
+void pop()                    //Here in this code pop functionality of stack is not required,still I have written it for reference.
 {
     if(top==-1)
     {
