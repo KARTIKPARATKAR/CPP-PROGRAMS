@@ -1,4 +1,6 @@
 //Reverse a string using Stack 
+//Reversing an array using stack has the same code just take input from user in an array insted of string
+
 #include<iostream>
 #include<string>
 using namespace std;
