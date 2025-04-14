@@ -101,8 +101,7 @@ class teacher : public person
         getperson();
         cout<<"Salary of teacher is:"<<salary<<endl;
         cout<<"School of teacher is:"<<school<<endl;
-    }
-    
+    }  
 };
 int main()
 {
