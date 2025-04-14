@@ -37,5 +37,4 @@ case '/':
     cout<<"Give proper operations among + , - , * , % , /";
     break;
  }
-
 }
