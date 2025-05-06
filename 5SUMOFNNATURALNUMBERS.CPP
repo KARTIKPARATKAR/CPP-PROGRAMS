@@ -31,7 +31,6 @@ int main()
 
 
 //Sum of first n natural numbers between tn to tp
-
 #include<iostream>
 using namespace std;
 int main()
@@ -55,7 +54,6 @@ int main()
 
 
 //Sum of first n natural numbers which are odd numbers
-
 #include<iostream>
 using namespace std;
 int main()
