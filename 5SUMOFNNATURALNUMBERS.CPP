@@ -27,3 +27,28 @@ int main()
     cout<<"The sum is: "<<sum<<endl;
     return 0;
 }
+
+
+
+//Sum of first n natural numbers between tn to tp
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int tn,tp;
+    cout<<"Give the number tn:"<<endl;
+    cin>>tn;
+    cout<<"Give the number tp:"<<endl;
+    cin>>tp;
+    int sum =0;
+    
+    for(int i=tn;i<=tp;i++)
+    {
+        sum = sum + i;
+        
+    }
+    
+    cout<<"Sum is:"<<sum<<endl;
+    return 0;
+}
