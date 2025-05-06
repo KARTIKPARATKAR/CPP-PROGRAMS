@@ -25,3 +25,29 @@ int main()
         }
     }
 }
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    a=1;
+    b=2;
+    c=3;
+    
+    if(a>=b && a>=c)
+    {
+        cout<<a<<" is the largest."<<endl;
+        return 0;
+    }
+    else if(b>=a && b>=c){
+        cout<<b<<" is the largest"<<endl;
+        return 0;
+    }
+    else
+    {
+        cout<<c<<" is the largest"<<endl;
+        return 0;
+    }
+}
