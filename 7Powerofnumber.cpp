@@ -15,3 +15,24 @@ int main()
     cout<<"The result is : "<<result<<endl;
     return 0;
 }
+
+
+
+//Power of a number
+#include<iostream>
+using namespace std;
+int main()
+{
+    int base,power,result=1;
+    cout<<"Give base;"<<endl;
+    cin>>base;
+    cout<<"Give power:"<<endl;
+    cin>>power;
+    for(int i=1;i<=power;i++)
+    {
+        result = result * base;
+    }
+    
+    cout<<result;
+    return 0;
+}
