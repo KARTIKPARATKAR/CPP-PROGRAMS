@@ -4,10 +4,7 @@ This repository contains over 70+ C++ programs covering basic to intermediate co
 
 ---
 
-## 📂 Program List
 
-<details>
-<summary>📌 Click to expand all 70+ C++ Programs</summary>
 
 ### 🔢 Basic Programs
 - [1-CALCULAROR.CPP](./1-CALCULAROR.CPP)
