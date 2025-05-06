@@ -1,4 +1,20 @@
 //Swaping of two numbers means mutually exchanging the values of two variables
+Code 1: Without using the temp variable
+       #include<iostream>
+        using namespace std;
+        int main()
+        {
+        int a=5,b=7;
+        b=b+a;
+        a=b-a;
+        b=b-a;
+        cout<<"a is:"<<a<<endl;
+        cout<<"b is: "<<b<<endl;
+        return 0;
+        }
+
+
+Code 2 : Using the temp variable
 #include<iostream>
 using namespace std;
 int main()
