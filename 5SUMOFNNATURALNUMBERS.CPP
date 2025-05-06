@@ -51,4 +51,28 @@ int main()
     
     cout<<"Sum is:"<<sum<<endl;
     return 0;
+
+
+
+//Sum of first n natural numbers which are odd numbers
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Give n"<<endl;
+    cin>>n;
+    int count=0;
+    int sum = 0;
+    for(int i=1;count<n;i=i+2)
+    {
+        sum = sum+i;
+        count++;
+    }
+    
+    cout<<"Sum is "<<sum<<endl;
+    return 0;
 }
+
+
