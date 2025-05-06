@@ -95,3 +95,19 @@ int main()
     cout<<"Sum is "<<sum<<endl;
     return 0;
 }
+
+
+//Sum of squares of first N natural numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int sum;
+    int n;
+    cout<<"Give n"<<endl;
+    cin>>n;
+    
+    sum = (n*(n+1)*(2*n+1))/6;
+    cout<<"Sum is:"<<sum;
+    return 0;
+}
