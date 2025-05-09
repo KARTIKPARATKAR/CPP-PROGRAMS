@@ -31,3 +31,37 @@ int main()
     }
     return 0;
 }
+
+
+//Alternate code might look like this:
+//Prime number using function
+#include<iostream>
+using namespace std;
+
+bool prime(int n)
+{
+    for(int i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+int main()
+{
+    int a;
+    cout<<"Give the number to check prime number"<<endl;
+    cin>>a;
+    
+    if(prime(a))
+    {
+        cout<<a<<" is a prime"<<endl;
+    }
+    else
+    {
+        cout<<a<<" is not a prime"<<endl;
+    }
+    return 0;
+}
