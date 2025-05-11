@@ -1,4 +1,5 @@
-// A member function of a class is a function that has its definition or its prototype within the class definition like any other variable.
+// A member function of a class is a function that has its definition or its prototype within 
+// the class definition like any other variable.
 #include<iostream>
 using namespace std;
 class hero      //Class is declared 
