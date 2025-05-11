@@ -29,6 +29,8 @@ int main()
   cout<<endl<<"Sum at odd "<<sumodd<<endl;
   cout<<"Sum at even "<<sumeven<<endl;
   int diff=sumodd-sumeven;
+  int diff = sumeven - sumodd;
+
   cout<<"The difference is:"<<diff<<endl;
   return 0;
 } 
