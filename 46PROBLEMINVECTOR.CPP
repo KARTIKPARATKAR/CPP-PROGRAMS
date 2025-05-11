@@ -20,11 +20,11 @@ int main()
   int sumeven=0,sumodd=0;
   for(int i=0;i<name.size();i+=2)
   {
-    sumodd+=name[i];
+    sumeven+=name[i];
   }
   for(int i=1;i<name.size();i+=2)
   {
-    sumeven+=name[i];
+    sumodd+=name[i];
   }
   cout<<endl<<"Sum at odd "<<sumodd<<endl;
   cout<<"Sum at even "<<sumeven<<endl;
